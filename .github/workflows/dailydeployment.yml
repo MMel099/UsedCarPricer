@@ -35,4 +35,4 @@ jobs:
           git add cars.csv
           git add daily_data.csv  # Add all the files you expect to create
           git commit -m 'Automatic daily car data'
-          git push git push https://$GITHUB_TOKEN@github.com/MMel099/UsedCarPricer.git HEAD:main
+          git push origin main
