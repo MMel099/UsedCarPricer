@@ -26,3 +26,11 @@ jobs:
           API: ${{ secrets.AutoDevAPI}}
         run: |
           python daily_newsletter.py
+      - name: Commit report
+        run: |
+          git config --global user.name 'Max Melnikas'
+          git config --global user.email 'MMel099@users.noreply.github.com'
+          git add cars.csv
+          git add daily_data.csv  # Add all the files you expect to create
+          git commit -m 'Automatic daily car data'
+          git push
