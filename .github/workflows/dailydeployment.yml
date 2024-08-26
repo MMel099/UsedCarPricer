@@ -27,6 +27,8 @@ jobs:
         run: |
           python daily_newsletter.py
       - name: Commit report
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
         run: |
           git config --global user.name 'Max Melnikas'
           git config --global user.email 'MMel099@users.noreply.github.com'
