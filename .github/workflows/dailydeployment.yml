@@ -28,11 +28,12 @@ jobs:
           python daily_newsletter.py
       - name: Commit report
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONs_PAT }}
         run: |
           git config --global user.name 'Max Melnikas'
           git config --global user.email 'MMel099@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
           git add cars.csv
           git add daily_data.csv  # Add all the files you expect to create
           git commit -m 'Automatic daily car data'
-          git push origin main
+          git push
