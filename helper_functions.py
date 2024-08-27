@@ -94,36 +94,50 @@ def calculate_price(entry):
 # Function to update the daily log of listing statistics
 def update_daily(X_mod_sorted):
     # Convert the date column to be in a desirable format
-    X_mod_sorted['createdAt'] = pd.to_datetime(X_mod_sorted['createdAt'], format="%Y-%m-%dT%H:%M:%S.%fZ")
-    X_mod_sorted['date'] = X_mod_sorted['createdAt'].dt.date
+    X_mod_sorted['createdAt'] = pd.to_datetime(X_mod_sorted['createdAt'], format="%Y-%m-%dT%H:%M:%S.%fZ").dt.date
 
     # Get date objects for today and yesterday
     today = datetime.now().date()
     yesterday = today - timedelta(days=1)
 
     # Only pull yesterday's cars
-    X_filtered = X_mod_sorted[X_mod_sorted['date'] == yesterday]
+    X_filtered = X_mod_sorted[X_mod_sorted['createdAt'] == yesterday]
     
     # Calculate the average of the 'discount' column and the sample size for the filtered data
     average_discount = X_filtered['discount'].sum()
     number_listings = len(X_filtered)
 
-    # Save data in this file
-    file_path = 'daily_data.csv'
+    # Save new cars in a master data sheet
+    master_filepath = 'data/master_data.csv'
+    if not os.path.exists(master_filepath):
+        # Create a blank DataFrame with the desired structure
+        master = pd.DataFrame(columns=X_mod_sorted.columns)
+        
+        # Save the blank DataFrame to a CSV file
+        master.to_csv(master_filepath, index=False)
+    else:
+        # Load the existing CSV file
+        master = pd.read_csv(master_filepath)
+    master = pd.concat([master, X_filtered], ignore_index=True)
+    # Save the updated DataFrame back to the CSV file
+    master.to_csv(master_filepath, index=False)
+    
+    # Save daily stats in this file
+    stats_filepath = 'data/daily_stats.csv'
     # Check if the CSV file already exists
-    if not os.path.exists(file_path):
+    if not os.path.exists(stats_filepath):
         # Create a blank DataFrame with the desired structure
         daily = pd.DataFrame(columns=['date', 'number_of_listings', 'average_discount'])
         
         # Save the blank DataFrame to a CSV file
-        daily.to_csv(file_path, index=False)
+        daily.to_csv(stats_filepath, index=False)
     else:
         # Load the existing CSV file
-        daily = pd.read_csv(file_path)
+        daily = pd.read_csv(stats_filepath)
     
     # Create an entry to save in the log
     new_entry = pd.DataFrame([{
-        'date': today,
+        'date': yesterday,
         'number_of_listings': number_listings,  # Replace with the actual count
         'average_discount': average_discount  # Replace with the actual average discount
     }])
@@ -132,4 +146,4 @@ def update_daily(X_mod_sorted):
     daily = pd.concat([daily, new_entry], ignore_index=True)
     
     # Save the updated DataFrame back to the CSV file
-    daily.to_csv(file_path, index=False)
+    daily.to_csv(stats_filepath, index=False)

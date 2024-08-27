@@ -28,7 +28,7 @@ params = {
     #'location': 'Boston, MA',
     'longitude': -71.058884,
     'latitude': 42.360081,
-    'radius': 200,
+    'radius': 150,
     'transmission[]': 'automatic',
     'exclude_no_price': 'true'
     # Remove or properly set empty parameters
@@ -52,7 +52,7 @@ X_mod['discount'] = X_mod['estimate_price'] - X_mod['priceUnformatted']
 X_mod_sorted = X_mod.sort_values(by='discount', ascending=False)
 
 # Save the result as a csv
-X_mod_sorted.to_csv('cars.csv', index=False)
+X_mod_sorted.to_csv('data/newest_data.csv', index=False)
 
 # Call update_daily function to store data about car listings in a given day.
 update_daily(X_mod_sorted)
