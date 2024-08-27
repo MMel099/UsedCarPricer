@@ -63,6 +63,9 @@ def calculate_price(entry):
     trim = entry['trim']
     year = entry['year']
     mileage = entry['mileageUnformatted']
+
+    # Intercept could be interpreted as the price of a new 2025 LE car with no miles
+    intercept = 34850
     # Initialize a vector of zeros with length 10 (one for each year from 2016 to 2025)
     year_vector = np.zeros(10, dtype=int)
     # Determine the index corresponding to the given year
@@ -70,11 +73,11 @@ def calculate_price(entry):
     # Set the indicator for the given year to 1
     year_vector[year_index] = 1
     # Vector of coefficients for each year
-    given_vector = np.array([-581.9210, -1336.4137, -172.4891, 261.1740, 56.1576, 
-                             -97.4513, -84.2193, -442.8693, -1402.8466, 0])
+    given_vector = np.array([-1059.3203, -1607.8351, -137.5725, 646.0091,  -168.7158, 
+                             202.4573, 214.1618, -189.8995, -1174.5509, 0])
     # Calculate the dot product
     year_adjustment = np.dot(year_vector, given_vector) 
-    year_adjustment = year_adjustment - 5758.6783 * math.log(2026-year)
+    year_adjustment = year_adjustment - 5703.2751 * math.log(2026-year)
 
     trim_vector = np.zeros(4, dtype=int)
     
@@ -83,12 +86,12 @@ def calculate_price(entry):
     
     # Set the indicator for the given trim to 1
     trim_vector[trim_index] = 1
-    given_vector = np.array([0, 587.9670, 3688.9185, 4641.6052])
+    given_vector = np.array([0, 757.9916, 3942.0173, 4951.5116])
     trim_adjustment = np.dot(trim_vector, given_vector)
 
-    mileage_adjustment = -0.0689 * mileage
+    mileage_adjustment = -0.0666 * mileage
 
-    final_price = 34930 + year_adjustment + trim_adjustment + mileage_adjustment
+    final_price = intercept + year_adjustment + trim_adjustment + mileage_adjustment
     return final_price
 
 # Function to update the daily log of listing statistics
