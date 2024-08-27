@@ -33,7 +33,8 @@ jobs:
         run: |
           git config --global user.name 'Max Melnikas'
           git config --global user.email 'MMel099@users.noreply.github.com'
-          git add cars.csv
-          git add daily_data.csv  # Add all the files you expect to create
+          git add data/newest_data.csv
+          git add data/daily_stats.csv 
+          git add data/master_data.csv  
           git commit -m 'Automatic daily car data'
           git push
