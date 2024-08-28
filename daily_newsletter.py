@@ -21,8 +21,6 @@ params = {
     'year_min': 2016,
     'make': 'Toyota',
     'model': 'Camry',
-    'mileage': '75000',
-    'price_max': '25000',
     #'city': 'Boston',
     #'state': 'MA',
     #'location': 'Boston, MA',

@@ -107,7 +107,7 @@ def update_daily(X_mod_sorted):
     X_filtered = X_mod_sorted[X_mod_sorted['createdAt'] == yesterday]
     
     # Calculate the average of the 'discount' column and the sample size for the filtered data
-    average_discount = X_filtered['discount'].sum()
+    average_discount = X_filtered['discount'].mean()
     number_listings = len(X_filtered)
 
     # Save new cars in a master data sheet
