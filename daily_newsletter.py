@@ -53,5 +53,8 @@ X_mod_sorted = X_mod.sort_values(by='discount', ascending=False)
 X_mod_sorted.to_csv('data/newest_data.csv', index=False)
 
 # Call update_daily function to store data about car listings in a given day.
-update_daily(X_mod_sorted)
+update_master_and_stats(X_mod_sorted)
+
+# Update the latest logs using the Master sheet
+update_latest_logs()
     

@@ -95,7 +95,7 @@ def calculate_price(entry):
     return final_price
 
 # Function to update the daily log of listing statistics
-def update_daily(X_mod_sorted):
+def update_master_and_stats(X_mod_sorted):
     # Convert the date column to be in a desirable format
     X_mod_sorted['createdAt'] = pd.to_datetime(X_mod_sorted['createdAt'], format="%Y-%m-%dT%H:%M:%S.%fZ").dt.date
 
@@ -150,3 +150,40 @@ def update_daily(X_mod_sorted):
     
     # Save the updated DataFrame back to the CSV file
     daily.to_csv(stats_filepath, index=False)
+
+
+# Function to update the daily, weekly and monthly listing logs
+def update_latest_logs():
+    master_filepath = 'data/master_data.csv'
+    # Load the existing CSV master file
+    master = pd.read_csv(master_filepath)
+    master_mod = master[['createdAt', 'dealerName', 'city', 'year', 'mileageUnformatted', 'trim', 'priceUnformatted', 'discount']]
+    master_mod.columns = ['Date', 'Dealer', 'City', 'Model Year', 'Mileage', 'Trim', 'Price', 'Discount']
+
+    thirty_day_filepath = 'data/thirty_day_data.csv'
+    # Filter for entries within the last 30 days
+    thirty_days_ago = datetime.now() - timedelta(days=30)
+    thirty_day_log = master_mod[pd.to_datetime(master_mod['Date']) >= thirty_days_ago]
+    thirty_day_log = thirty_day_log.sort_values(by='Discount', ascending=False)
+    
+    # Save the DataFrame to a CSV file
+    thirty_day_log.to_csv(thirty_day_filepath, index=False)
+
+    seven_day_filepath = 'data/seven_day_data.csv'
+    # Filter for entries within the last 7 days
+    seven_days_ago = datetime.now() - timedelta(days=7)
+    seven_day_log = master_mod[pd.to_datetime(master_mod['Date']) >= seven_days_ago]
+    seven_day_log = seven_day_log.sort_values(by='Discount', ascending=False)
+    
+    # Save the DataFrame to a CSV file
+    seven_day_log.to_csv(seven_day_filepath, index=False)
+
+    one_day_filepath = 'data/one_day_data.csv'
+    # Filter for entries within the last 7 days
+    one_day_ago = datetime.now() - timedelta(days=1)
+    one_day_log = master_mod[pd.to_datetime(master_mod['Date']) >= one_day_ago]
+    one_day_log = one_day_log.sort_values(by='Discount', ascending=False)
+    
+    # Save the DataFrame to a CSV file
+    one_day_log.to_csv(one_day_filepath, index=False)
+    
