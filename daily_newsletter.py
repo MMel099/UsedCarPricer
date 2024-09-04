@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from pandas import json_normalize
 from datetime import datetime, timedelta
-from helper_functions import gather_data, calculate_price, update_daily
+from helper_functions import *
 from dotenv import load_dotenv
 import os
 
