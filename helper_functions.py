@@ -180,8 +180,10 @@ def update_latest_logs():
 
     one_day_filepath = 'data/one_day_data.csv'
     # Filter for entries within the last 7 days
-    one_day_ago = datetime.now() - timedelta(days=1)
-    one_day_log = master_mod[pd.to_datetime(master_mod['Date']) >= one_day_ago]
+
+    
+    yesterday = datetime.now() - timedelta(days=1)
+    one_day_log = master_mod[pd.to_datetime(master_mod['Date']) == yesterday]
     one_day_log = one_day_log.sort_values(by='Discount', ascending=False)
     
     # Save the DataFrame to a CSV file
