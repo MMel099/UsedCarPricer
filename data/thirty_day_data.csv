@@ -22,11 +22,11 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2024-08-28,Hartford Toyota Super Store,Hartford,2025,4.0,SE,32249,3358.7252000000008
 2024-08-29,Haddad Toyota,Pittsfield,2025,1.0,LE,31524,3325.9334000000017
 2024-09-01,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,31602,3247.9334000000017
+2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
 2024-09-08,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
-2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
-2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
-2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
 2024-08-30,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
+2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
+2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
 2024-09-11,Balise Toyota Springfield,West Springfield,2025,3.0,LE,31614,3235.800199999998
 2024-09-12,Toyota of Dartmouth,North Dartmouth,2025,10.0,LE,31614,3235.3340000000026
 2024-08-31,Bill Dube Ford Toyota,Dover,2025,5.0,XLE,35586,3205.684300000001
@@ -56,8 +56,8 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2024-08-28,Imperial Toyota,Milford,2025,3.0,LE,32933,1916.8001999999976
 2024-08-27,Torrington Ford,Torrington,2024,9286.0,SE,27995,1866.7840444772628
 2024-09-09,New Country Mercedes-Benz,Hartford,2018,51968.0,XLE,21500,1833.7488334317784
-2024-09-15,Ira Toyota of Orleans,Orleans,2025,5.0,LE,33029,1820.6670000000013
 2024-08-30,Ira Toyota of Hyannis,Hyannis,2025,5.0,LE,33029,1820.6670000000013
+2024-09-15,Ira Toyota of Orleans,Orleans,2025,5.0,LE,33029,1820.6670000000013
 2024-09-05,Toyota of Dartmouth,North Dartmouth,2025,10.0,LE,33029,1820.3340000000023
 2024-09-08,Ira Toyota of Danvers,Danvers,2025,5.0,SE,33802,1805.6586000000025
 2024-09-12,Westbrook Toyota,Westbrook,2025,4.0,SE,33824,1783.7252000000008
@@ -104,6 +104,7 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2024-08-27,A Better Way Wholesale,Naugatuck,2017,89400.0,LE,13995,761.7486789703144
 2024-09-07,McGee Toyota of Claremont,Claremont,2025,5.0,SE,34853,754.6586000000025
 2024-08-28,Wakefield Auto Gallery,Wakefield,2016,100229.0,SE,13990,751.143673495877
+2024-09-16,Ira Lexus Danvers,Danvers,2019,39825.0,XLE,24988,699.6205000555419
 2024-09-04,Loehmann Blasius Chevrolet Cadillac,Waterbury,2017,94363.0,SE,14498,686.2044789703159
 2024-08-31,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34924,683.7917999999991
 2024-09-15,Ira Toyota of Danvers,Danvers,2025,5.0,SE,34924,683.6586000000025
@@ -326,8 +327,8 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2024-08-29,Ira Toyota Saco,Saco,2017,60884.0,LE,18500,-1844.0857210296847
 2024-08-29,Ira Toyota of Danvers,Danvers,2025,5.0,XSE,41652,-1850.8214000000007
 2024-08-28,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,40648,-1856.3156999999992
-2024-09-15,Toyota of Dartmouth,North Dartmouth,2025,10.0,XLE,40694,-1902.648699999998
 2024-09-01,Toyota of Dartmouth,North Dartmouth,2025,10.0,XLE,40694,-1902.648699999998
+2024-09-15,Toyota of Dartmouth,North Dartmouth,2025,10.0,XLE,40694,-1902.648699999998
 2024-09-05,Grieco Toyota,East Providence,2023,23563.0,SE,29488,-1904.8918105148405
 2024-08-28,FAZZA GROUP,Marlborough,2019,64705.0,LE,21998,-1909.404799944456
 2024-09-15,Toyota of Nashua,Nashua,2021,65619.0,SE,24200,-1938.8436709813832
@@ -351,6 +352,7 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2024-09-09,Auto Use,Andover,2023,20487.0,SE,29998,-2210.0302105148403
 2024-09-11,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,XLE,41004,-2212.315699999999
 2024-08-28,McGee Toyota of Epping,Epping,2025,5.0,LE,37064,-2214.3329999999987
+2024-09-16,Ira Toyota of Manchester,Manchester,2025,5.0,XLE,41009,-2217.315699999999
 2024-09-05,Nucar Toyota of North Kingstown,North Kingstown,2025,10.0,XLE,41098,-2306.648699999998
 2024-09-06,CarMax Westborough,Westborough,2019,67630.0,SE,22998,-2346.2181999444547
 2024-09-13,Nucar Toyota of Norwood,Norwood,2017,110177.0,SE,16488,-2357.0079210296844
