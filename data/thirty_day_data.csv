@@ -1,5 +1,4 @@
 Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
-2025-06-22,Elmwood Auto Sales,Providence,2025,10340.0,XSE,29900,9212.867599999998
 2025-06-26,Faith's Toyota,Westminster,2025,5.0,LE,28524,6325.667000000001
 2025-07-15,Falmouth Toyota Incorporated,Bourne,2025,392.0,LE,28995,5828.892800000001
 2025-06-25,McGee Toyota of Claremont,Claremont,2025,3.0,LE,29741,5108.800199999998
@@ -11,7 +10,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-08,Woburn Toyota,Woburn,2025,15.0,LE,30382,4467.000999999997
 2025-06-25,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,LE,30438,4411.667000000001
 2025-07-11,Nucar Toyota of North Kingstown,North Kingstown,2025,10.0,LE,30514,4335.334000000003
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,LE,30524,4325.800199999998
 2025-07-02,Woburn Toyota,Woburn,2025,7.0,LE,30532,4317.533799999997
 2025-06-27,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,LE,30638,4211.667000000001
 2025-07-17,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,31646,3961.791799999999
@@ -49,7 +47,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-11,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,LE,31959,2890.6670000000013
 2025-07-10,Westbrook Toyota,Westbrook,2025,11108.0,SE,31988,2880.1987999999983
 2025-06-29,Ira Toyota of Manchester,Manchester,2025,1.0,LE,31979,2870.9334000000017
-2025-06-22,Ira Toyota of Hyannis,Hyannis,2025,5.0,LE,31979,2870.6670000000013
 2025-06-25,McGee Toyota of Claremont,Claremont,2025,5.0,XSE,36932,2869.1786
 2025-06-28,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,LE,32033,2816.6670000000013
 2025-07-17,Nucar Toyota of Norwood,Norwood,2025,3.0,XSE,36992,2809.311799999996
@@ -74,23 +71,20 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-04,Empire Ford of New Bedford,New Bedford,2024,29445.0,SE,25990,2529.194644477262
 2025-07-17,AutoFair Toyota of Tewksbury,Tewksbury,2023,31354.0,LE,23799,2507.235989485158
 2025-07-17,Keeler Honda,Latham,2019,40159.0,SE,20000,2481.350400055544
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,LE,32392,2457.800199999998
-2025-06-22,McGovern Toyota of Portsmouth,Portsmouth,2022,10651.0,LE,23998,2450.387088954521
 2025-07-19,Nucar Ford of Lebanon,Lebanon,2019,115920.0,SE,14998,2437.667800055544
 2025-07-10,Universal Motors,New Britain,2022,101473.0,LE,17995,2404.6418889545203
-2025-06-22,Westboro Toyota,Westborough,2024,16623.0,SE,27000,2373.139844477264
 2025-07-13,Westbrook Toyota,Westbrook,2025,11137.0,SE,32498,2368.2674000000043
 2025-06-26,Westbrook Toyota,Westbrook,2025,22579.0,LE,30995,2351.238599999997
 2025-07-19,Balise Toyota Springfield,West Springfield,2023,60628.0,XSE,26996,2312.099189485154
 2025-07-17,Best Auto Mart LLC,South Weymouth,2016,140795.0,LE,8995,2286.4564734958767
 2025-07-15,Enterprise Car Sales Worcester,Worcester,2023,56297.0,LE,22398,2247.0321894851586
-2025-07-02,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37560,2240.845600000001
 2025-06-25,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37560,2240.845600000001
+2025-07-02,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37560,2240.845600000001
 2025-07-18,AutoFair Toyota of Tewksbury,Tewksbury,2025,70.0,XSE,37560,2236.8496000000014
 2025-06-25,Ira Toyota of Manchester,Manchester,2025,9959.0,LE,31981,2205.7306000000026
 2025-07-18,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37620,2180.845600000001
-2025-07-18,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37620,2180.845600000001
 2025-07-17,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37620,2180.845600000001
+2025-07-18,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,XSE,37620,2180.845600000001
 2025-07-15,Lex Autos LLC,Hartford,2021,89364.0,SE,18499,2180.7393290186155
 2025-06-24,Prestige Auto Cars LLC,New Britain,2023,37194.0,XSE,28695,2173.8035894851564
 2025-07-11,Icon Motors Group,Medford,2024,40478.0,SE,25613,2171.3968444772618
@@ -101,7 +95,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-01,Ira Toyota of Danvers,Danvers,2025,11702.0,LE,31997,2073.6468000000023
 2025-07-06,Faith's Toyota,Westminster,2025,5.0,XSE,37745,2056.1786
 2025-07-10,Westbrook Toyota,Westbrook,2025,8831.0,SE,32972,2047.8470000000016
-2025-06-22,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,32809,2040.9334000000017
 2025-07-04,Nucar Toyota of Norwood,Norwood,2023,54361.0,SE,23496,2035.9613894851573
 2025-07-10,Nucar Nissan of Keene,Swanzey,2022,25474.0,LE,23449,2012.1752889545205
 2025-06-27,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,33611,1996.791799999999
@@ -118,6 +111,7 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-04,Woburn Toyota,Woburn,2025,7.0,SE,33793,1814.5253999999984
 2025-06-28,Woburn Toyota,Woburn,2025,7.0,SE,33798,1809.5253999999984
 2025-06-26,Balise Toyota Springfield,West Springfield,2022,51123.0,LE,21987,1765.9518889545216
+2025-07-21,Ira Toyota Saco,Saco,2023,2725.0,LE,26490,1722.9273894851576
 2025-06-27,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,33913,1694.791799999999
 2025-06-28,Bernardi Toyota,Framingham,2025,10.0,SE,33919,1688.3256000000038
 2025-06-27,Nucar Toyota of Norwood,Norwood,2025,4.0,SE,33936,1671.7252000000008
@@ -131,15 +125,14 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-11,Herb Chambers Lexus,Sharon,2023,56335.0,XSE,27998,1596.012989485156
 2025-07-13,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,34029,1578.6586000000025
 2025-07-02,Ira Toyota of Danvers,Danvers,2021,9039.0,LE,23699,1572.3927290186148
-2025-06-27,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,34038,1569.6586000000025
 2025-07-17,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,34038,1569.6586000000025
+2025-06-27,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,34038,1569.6586000000025
 2025-07-09,Car Central Sales & Service,Wallingford,2022,46528.0,LE,22495,1563.9788889545198
 2025-06-28,McGee Toyota of Claremont,Claremont,2025,5.0,SE,34045,1562.6586000000025
 2025-07-01,Ira Toyota of Danvers,Danvers,2024,12368.0,LE,27347,1551.5312444772608
 2025-07-09,Faith's Toyota,Westminster,2025,5.0,SE,34080,1527.6586000000025
 2025-07-02,Toyota of Smithfield,Smithfield,2022,41736.0,XLE,26797,1523.1433889545187
 2025-07-20,McGovern Toyota of Portsmouth,Portsmouth,2025,8.0,LE,33329,1520.4671999999991
-2025-06-22,Balise Toyota Springfield,West Springfield,2021,61832.0,SE,20994,1519.3705290186151
 2025-06-28,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34100,1507.791799999999
 2025-07-07,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,33343,1506.9334000000017
 2025-07-09,Ira Toyota of Danvers,Danvers,2022,36859.0,LE,23197,1505.9342889545223
@@ -147,7 +140,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-07,Wow Toyota of Wallingford,Wallingford,2025,1.0,SE,34118,1489.925000000003
 2025-07-18,Toyota of Dartmouth,N. Dartmouth,2025,1.0,SE,34119,1488.925000000003
 2025-06-24,Prestige Auto Cars LLC,New Britain,2021,39239.0,LE,21775,1485.072729018615
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34124,1483.791799999999
 2025-06-25,Bernardi Toyota,Framingham,2025,10.0,SE,34128,1479.3256000000038
 2025-07-08,Stephen Auto Mall,Bristol,2025,5.0,LE,33374,1475.6670000000013
 2025-07-10,AutoFair Toyota of Tewksbury,Tewksbury,2025,75.0,SE,34143,1459.9965999999986
@@ -157,7 +149,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-12,AutoFair Toyota of Tewksbury,Tewksbury,2022,64868.0,SE,22159,1436.5264889545217
 2025-06-26,Ira Toyota of Danvers,Danvers,2025,5.0,LE,33419,1430.6670000000013
 2025-06-28,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,33444,1405.9334000000017
-2025-06-22,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,33444,1405.9334000000017
 2025-07-17,J&M Automotive,Naugatuck,2019,60060.0,LE,18995,1402.9522000555444
 2025-07-12,Bourne's Auto Center,South Easton,2019,65653.0,XSE,23590,1386.9700000555422
 2025-06-24,Prestige Auto Cars LLC,New Britain,2018,78940.0,SE,16975,1378.3879334317826
@@ -174,11 +165,11 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-20,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34273,1334.791799999999
 2025-06-26,Nucar Toyota of Norwood,Norwood,2025,7876.0,SE,33775,1308.4500000000044
 2025-07-02,Irwin Automotive Group,Laconia,2025,10.0,LE,33544,1305.3340000000026
-2025-06-22,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,XLE,37489,1302.6843000000008
 2025-07-19,Toyota of Nashua,Nashua,2025,5.0,SE,34320,1287.6586000000025
 2025-07-11,Westbrook Toyota,Westbrook,2025,3.0,XLE,37508,1283.8174999999974
 2025-07-11,Westboro Toyota,Westborough,2022,42479.0,XLE,27000,1270.6595889545206
 2025-06-29,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34340,1267.791799999999
+2025-07-21,AutoFair Toyota of Tewksbury,Tewksbury,2023,32302.0,LE,24999,1244.0991894851577
 2025-07-01,AutoFair Toyota of Tewksbury,Tewksbury,2024,29835.0,LE,26499,1236.2290444772625
 2025-06-28,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,LE,33623,1226.6670000000013
 2025-07-10,Albrecht Buick GMC of Wakefield,Wakefield,2022,17091.0,XLE,28738,1223.5003889545187
@@ -205,7 +196,7 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-06-29,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,LE,33798,1051.6670000000013
 2025-07-13,Devan Chevrolet of Wilton,Wilton,2023,16619.0,SE,26995,1050.578589485158
 2025-07-02,Jaffarian Toyota Volvo,Haverhill,2024,42701.0,SE,26590,1046.345044477261
-2025-06-22,Copeland Toyota,Brockton,2022,46879.0,LE,22995,1040.6022889545202
+2025-07-21,Ira Toyota of Manchester,Manchester,2025,5.0,LE,33813,1036.6670000000013
 2025-06-27,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,LE,33823,1026.6670000000013
 2025-07-11,Faith's Toyota,Westminster,2025,5.0,XSE,38788,1013.1785999999992
 2025-07-03,AutoFair Toyota of Tewksbury,Tewksbury,2022,1959.0,XLE,29989,980.2915889545184
@@ -215,7 +206,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-06-25,Ira Toyota of Hyannis,Hyannis,2025,5.0,SE,34668,939.6586000000024
 2025-07-03,Ira Toyota of Danvers,Danvers,2017,56252.0,XSE,20997,918.9170789703168
 2025-06-29,Toyota of Nashua,Nashua,2023,62519.0,XSE,28299,883.158589485156
-2025-06-22,Bourne's Auto Center,South Easton,2019,79421.0,SE,18990,876.5012000555434
 2025-07-02,Ira Toyota of Manchester,Manchester,2025,11286.0,SE,33981,875.3440000000046
 2025-07-02,Ira Toyota of Danvers,Danvers,2025,5.0,LE,33988,861.6670000000013
 2025-06-24,Ira Toyota of Manchester,Manchester,2025,5.0,SE,34754,853.6586000000025
@@ -223,7 +213,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-04,Ira Toyota of Orleans,Orleans,2025,5.0,LE,34019,830.6670000000013
 2025-07-01,McGee Toyota of Putnam,Putnam,2021,27240.0,SE,23998,819.1977290186151
 2025-07-04,Ira Toyota of Danvers,Danvers,2025,5.0,LE,34033,816.6670000000013
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,34798,809.7917999999991
 2025-06-25,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,LE,34053,796.3340000000026
 2025-06-29,Toyota of Nashua,Nashua,2025,6.0,SE,34812,795.5920000000042
 2025-06-27,Bourne's Auto Center,South Easton,2020,74113.0,SE,19490,794.4528339624194
@@ -237,7 +226,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-10,Romeo Toyota of Glens Falls,Glens Falls,2017,134277.0,XLE,14995,714.9577789703144
 2025-07-17,Lia Toyota of Wilbraham,Wilbraham,2024,34474.0,SE,27499,685.2632444772607
 2025-07-01,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,34187,662.9334000000017
-2025-06-22,Ira Lexus Danvers,Danvers,2022,67791.0,LE,21988,654.8630889545202
 2025-06-29,Icon Motors Group,Medford,2021,56440.0,SE,22218,654.4777290186175
 2025-07-04,Woburn Toyota,Woburn,2025,7.0,XSE,39157,644.0453999999954
 2025-06-27,Nucar Toyota of Norwood,Norwood,2024,22448.0,SE,28347,638.1948444772606
@@ -268,10 +256,9 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-16,CarMax Westborough,Westborough,2023,43106.0,SE,25998,283.5443894851596
 2025-07-02,Nucar Toyota of Norwood,Norwood,2025,3.0,XLE,38529,262.8174999999974
 2025-06-28,Balise Toyota Springfield,West Springfield,2016,126183.0,LE,11994,260.6156734958768
-2025-07-10,Toyota of Nashua,Nashua,2025,5.0,XLE,38534,257.6843000000008
 2025-07-16,Ira Toyota of Orleans,Orleans,2025,5.0,XLE,38534,257.6843000000008
+2025-07-10,Toyota of Nashua,Nashua,2025,5.0,XLE,38534,257.6843000000008
 2025-07-11,Tasca Chrysler Jeep Dodge Ram Fiat,Johnston,2016,129974.0,LE,11758,244.135073495876
-2025-06-22,Woburn Toyota,Woburn,2023,35510.0,LE,25795,234.44638948515785
 2025-07-01,Lynch Toyota,Manchester,2025,8736.0,XSE,38995,224.69399999999587
 2025-07-17,Enterprise Car Sales Woburn,Woburn,2022,59967.0,SE,23698,223.93308895451992
 2025-07-13,Copeland Toyota,Brockton,2023,40301.0,LE,25495,215.3657894851567
@@ -284,13 +271,11 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-01,Woburn Toyota,Woburn,2025,7.0,XSE,39682,119.04539999999542
 2025-06-25,Toyota of Dartmouth,N. Dartmouth,2024,9534.0,LE,28988,99.27564447726036
 2025-07-01,Elmwood Chrysler Dodge Jeep Ram,East Providence,2019,72134.0,LE,19495,98.82380005554296
-2025-06-22,Toyota of Smithfield,Smithfield,2022,27922.0,SE,25978,78.13008895452003
 2025-06-24,Lynch Toyota,Manchester,2021,33390.0,LE,23595,54.61612901861372
 2025-06-26,Ocean Honda Groton,Groton,2021,38917.0,SE,23985,54.50952901861456
 2025-07-09,Ira Toyota of Danvers,Danvers,2022,20124.0,XLE,29737,22.502588954521343
 2025-07-11,Toyota of Nashua,Nashua,2025,11.0,SE,35599,8.258999999998196
 2025-07-18,Toyota of Dartmouth,N. Dartmouth,2025,1.0,SE,35604,3.9250000000029104
-2025-06-22,AutoFair Toyota of Tewksbury,Tewksbury,2023,27580.0,LE,26554,3.584389485156862
 2025-07-17,Audi Brookline,Brookline,2019,81226.0,LE,18998,-9.703399944457487
 2025-07-20,Nucar Toyota of Norwood,Norwood,2025,3.0,XLE,38814,-22.18250000000262
 2025-07-18,Toyota of Dartmouth,N. Dartmouth,2025,1.0,XSE,39824,-22.55500000000029
@@ -302,7 +287,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-12,Wow Toyota of Wallingford,Wallingford,2025,1.0,SE,35773,-165.0749999999971
 2025-07-02,Balise Toyota Springfield,West Springfield,2025,48353.0,XLE,35737,-165.2925000000032
 2025-07-11,John's Auto Sales,Somerville,2017,57425.0,XLE,20995,-166.69902102968626
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,SE,35782,-174.20820000000094
 2025-07-02,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,35792,-184.34139999999752
 2025-07-18,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,SE,35792,-184.67439999999624
 2025-06-28,Riverhead Ford,Riverhead,2024,13440.0,XLE,32995,-225.8466555227351
@@ -349,9 +333,9 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-04,Nucar Toyota of Norwood,Norwood,2022,9949.0,SE,27888,-634.8681110454781
 2025-07-18,Nucar Toyota of North Kingstown,North Kingstown,2025,10.0,SE,36244,-636.6743999999962
 2025-07-20,Wow Toyota of Wallingford,Wallingford,2018,155059.0,SE,13925,-641.1374665682197
-2025-07-02,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,36253,-645.3413999999975
 2025-07-01,Ira Toyota of Manchester,Manchester,2025,5.0,SE,36253,-645.3413999999975
 2025-06-25,Ira Toyota of Danvers,Danvers,2025,5.0,SE,36253,-645.3413999999975
+2025-07-02,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,36253,-645.3413999999975
 2025-07-10,AutoFair Toyota of Tewksbury,Tewksbury,2025,10.0,SE,36253,-645.6743999999962
 2025-07-08,Somerville Motors,Somerville,2018,159249.0,LE,12895,-648.183066568221
 2025-07-17,AutoMax Preowned Framingham,Framingham,2022,38836.0,SE,25999,-669.7423110454765
@@ -363,9 +347,7 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-04,Icon Motors Group,Medford,2021,35627.0,SE,24998,-739.376470981384
 2025-06-25,Nucar Toyota of North Kingstown,North Kingstown,2025,10.0,SE,36364,-756.6743999999962
 2025-06-27,Lia Toyota of Wilbraham,Wilbraham,2023,21386.0,SE,28495,-766.9036105148407
-2025-06-22,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,35634,-784.0665999999983
 2025-06-29,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,36408,-800.3413999999975
-2025-06-22,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,36408,-800.3413999999975
 2025-07-16,Balise Toyota Springfield,West Springfield,2022,34169.0,SE,26442,-801.9201110454778
 2025-07-09,Ira Toyota of Manchester,Manchester,2025,5.0,SE,36419,-811.3413999999975
 2025-07-17,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,SE,36424,-816.3413999999975
@@ -419,7 +401,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-11,Lynch Toyota,Manchester,2022,21581.0,SE,27995,-1516.5593110454793
 2025-07-03,CarMax Westborough,Westborough,2018,35815.0,LE,21998,-1530.4786665682186
 2025-07-11,Metro Ford Sales Inc.,Schenectady,2020,12308.0,SE,26000,-1599.3341660375809
-2025-06-22,Wow Toyota of Wallingford,Wallingford,2025,1.0,SE,37212,-1604.074999999997
 2025-06-28,Bernardi Toyota,Framingham,2025,10.0,SE,37212,-1604.6743999999962
 2025-06-25,Riverhead Ford,Riverhead,2023,26544.0,SE,28995,-1610.4264105148395
 2025-07-02,FAZZA GROUP,Marlboro,2020,27676.0,SE,24995,-1617.8429660375805
@@ -450,7 +431,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-06-24,Ira Toyota of Manchester,Manchester,2025,5.0,XSE,42177,-2375.8214000000007
 2025-07-18,McGovern Toyota of Portsmouth,Portsmouth,2025,5.0,XLE,41169,-2377.315699999999
 2025-07-18,CarMax Norwood,Norwood,2017,16653.0,LE,21998,-2396.3011210296863
-2025-06-22,Nucar Toyota of Norwood,Norwood,2025,3.0,XLE,41208,-2416.1825000000026
 2025-07-03,Toyota of Nashua,Nashua,2025,1.0,XSE,42352,-2550.5550000000003
 2025-06-27,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,41358,-2566.315699999999
 2025-07-15,Ira Toyota of Manchester,Manchester,2024,34152.0,XSE,34981,-2581.771555522737
@@ -458,7 +438,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-06-25,Bernardi Toyota,Framingham,2025,10.0,SE,38251,-2643.674399999996
 2025-07-17,CarMax South Portland,South Portland,2024,2491.0,SE,32998,-2683.6689555227385
 2025-07-17,Lia Toyota of Wilbraham,Wilbraham,2020,76885.0,SE,22899,-2799.162366037581
-2025-06-22,Herb Chambers Toyota of Auburn,Auburn,2023,30983.0,SE,29998,-2909.063810514839
 2025-06-27,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,41724,-2932.315699999999
 2025-06-26,Lia Toyota of Wilbraham,Wilbraham,2020,47566.0,SE,24998,-2945.51696603758
 2025-07-13,Toyota of Nashua,Nashua,2025,5.0,XLE,41747,-2955.315699999999
@@ -469,7 +448,6 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-07-01,Toyota of Nashua,Nashua,2025,5.0,XLE,42120,-3328.315699999999
 2025-06-26,Nucar Toyota of North Attleboro,North Attleboro,2025,5.0,XSE,43258,-3456.8214000000007
 2025-06-27,Westbrook Toyota,Westbrook,2025,4.0,XSE,43283,-3481.7548000000024
-2025-06-22,AutoFair Honda in Manchester,Manchester,2020,82556.0,SE,23246,-3523.8509660375785
 2025-06-28,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,42383,-3591.315699999999
 2025-07-01,Toyota of Nashua,Nashua,2025,5.0,XLE,42443,-3651.315699999999
 2025-07-04,Ira Toyota of Orleans,Orleans,2025,5.0,XLE,42464,-3672.315699999999
