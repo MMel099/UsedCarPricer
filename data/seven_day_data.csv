@@ -1,4 +1,5 @@
 Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
+2025-08-10,Elmwood Auto Sales,Providence,2025,10340.0,XSE,29900,9212.867599999998
 2025-08-08,New Country Toyota of Clifton Park,Mechanicville,2025,2.0,XSE,33544,6257.378400000001
 2025-08-07,Seaview Motors of Stratford,Stratford,2025,21552.0,LE,27995,5419.6368
 2025-08-08,Shah Auto Sales Inc,Abington,2017,80510.0,LE,11500,3848.822678970315
@@ -48,8 +49,8 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-08-09,Nucar Toyota of North Kingstown,North Kingstown,2025,10.0,LE,33479,1370.3340000000026
 2025-08-07,Balise Toyota of Warwick,Warwick,2025,3.0,LE,33514,1335.800199999998
 2025-08-09,Toyota of Nashua,Nashua,2025,8.0,LE,33584,1265.4671999999991
-2025-08-04,Herb Chambers KIA of Burlington,Burlington,2018,51849.0,SE,18998,1159.6485334317804
 2025-08-06,Irwin Automotive Group,Laconia,2025,10.0,SE,34448,1159.3256000000038
+2025-08-10,Irwin Automotive Group,Laconia,2025,10.0,LE,33753,1096.3340000000026
 2025-08-05,Wow Toyota of Wallingford,Wallingford,2025,1.0,LE,33759,1090.9334000000017
 2025-08-09,Bernardi Toyota,Framingham,2025,10.0,LE,33773,1076.3340000000026
 2025-08-06,Nucar Toyota of North Kingstown,North Kingstown,2019,57380.0,XSE,24491,1036.95180005554
@@ -65,16 +66,17 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-08-05,Balise Toyota of Warwick,Warwick,2025,1.0,LE,34014,835.9334000000017
 2025-08-07,Balise Toyota of Warwick,Warwick,2025,1.0,LE,34014,835.9334000000017
 2025-08-06,Haddad Toyota,Pittsfield,2023,15319.0,LE,26557,817.1669894851584
-2025-08-04,Ira Toyota of Danvers,Danvers,2025,5.0,LE,34067,782.6670000000013
 2025-08-06,Grieco Honda,Johnston,2023,16095.0,XSE,31555,718.9969894851565
 2025-08-06,South Shore Auto Gallery ,Abington,2016,149990.0,LE,9995,674.0694734958761
 2025-08-06,Tasca Toyota Boston,Boston,2023,26488.0,XLE,29999,573.3288894851576
 2025-08-06,Imperial Toyota,Milford,2025,3.0,XSE,39234,567.3117999999959
 2025-08-07,Enterprise Car Sales Norwood,Norwood,2023,55889.0,SE,24898,532.1965894851601
 2025-08-07,Enterprise Car Sales Woburn,Woburn,2023,57438.0,SE,24898,429.0331894851588
+2025-08-10,Reliance Motor Group,Malden,2016,112510.0,SE,13495,428.22907349587695
 2025-08-07,Bernardi Toyota,Framingham,2025,10.0,LE,34448,401.33400000000256
 2025-08-06,Torrington Toyota,Torrington,2025,2.0,SE,35219,388.8584000000046
 2025-08-08,Ira Toyota of Danvers,Danvers,2025,5.0,SE,35260,347.6586000000025
+2025-08-10,Westbrook Toyota,Westbrook,2023,46863.0,XLE,28965,250.35388948515904
 2025-08-06,Imperial Toyota,Milford,2025,3.0,SE,35499,108.79179999999906
 2025-08-06,Imperial Toyota,Milford,2025,3.0,SE,35499,108.79179999999906
 2025-08-07,Sonia's Auto Sales,Worcester,2023,46324.0,SE,25998,69.22558948515871
@@ -85,10 +87,10 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-08-05,Toyota of Keene,E Swanzey,2023,7834.0,LE,27995,-122.3320105148414
 2025-08-06,Torrington Toyota,Torrington,2025,2.0,LE,35129,-279.1331999999966
 2025-08-07,Colonial Nissan of Medford,Medford,2021,65163.0,SE,22587,-295.474070981385
-2025-08-04,Toyota of Nashua,Nashua,2025,11.0,SE,35999,-391.7410000000018
 2025-08-07,Herb Chambers Lexus,Sharon,2019,34889.0,LE,22498,-423.6591999444572
 2025-08-08,New Country Toyota of Clifton Park,Mechanicville,2025,3.0,SE,36056,-448.20820000000094
 2025-08-07,Ira Toyota of Hyannis,Hyannis,2025,5.0,SE,36068,-460.3413999999975
+2025-08-10,Sonia's Auto Sales,Worcester,2022,96012.0,SE,21998,-476.663911045478
 2025-08-08,New Country Toyota of Clifton Park,Mechanicville,2025,2.0,SE,36113,-505.1415999999954
 2025-08-06,Tasca Toyota Boston,Boston,2025,1.0,SE,36114,-506.0749999999971
 2025-08-08,Route 6 Auto Mall Kia,Swansea,2017,75571.0,SE,16954,-518.248321029685
@@ -125,7 +127,4 @@ Date,Dealer,City,Model Year,Mileage,Trim,Price,Discount
 2025-08-08,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,41483,-2691.315699999999
 2025-08-07,Toyota of Nashua,Nashua,2025,5.0,XLE,41489,-2697.315699999999
 2025-08-07,Ira Toyota of Danvers,Danvers,2025,5.0,XLE,42364,-3572.315699999999
-2025-08-04,Ira Toyota of Danvers,Danvers,2025,5.0,XSE,43933,-4131.821400000001
-2025-08-04,Ira Toyota of Danvers,Danvers,2025,5.0,XSE,44457,-4655.821400000001
-2025-08-04,Ira Toyota of Danvers,Danvers,2025,5.0,XSE,45751,-5949.821400000001
 2025-08-08,Canobie Lake Toyota,Salem,2025,5.0,LE,41989,-7139.332999999999
